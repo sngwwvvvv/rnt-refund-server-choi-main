@@ -204,7 +204,7 @@ export class CalculateEmployeeCount {
     }
     if (
       Number(employeeData.employeeEndDate.slice(0, 4)) <
-      period.startYear - 1
+      period.startYear - 2
     ) {
       const {
         id,
